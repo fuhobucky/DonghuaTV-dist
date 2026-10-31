@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 5,
   "tlds": [
     ".la",
     ".pro",
@@ -78,10 +78,11 @@
     }
   },
   "latestApp": {
-    "versionCode": 201,
-    "versionName": "0.2.1",
-    "url": "https://github.com/fuhobucky/DonghuaTV-dist/releases/download/v0.2.1/DonghuaTV-0.2.1.apk",
-    "sha256": "24834d429fff37316739af20e556a6be4fa60db063518e0535c3701a834756a1",
-    "notes": "Thử cập nhật trong app"
-  }
+    "versionCode": 202,
+    "versionName": "0.2.2",
+    "url": "https://github.com/fuhobucky/DonghuaTV-dist/releases/download/v0.2.2/DonghuaTV-0.2.2.apk",
+    "sha256": "eb11e536a2339f74c3919abd0dfd86f3600c0ef2be20a03a07a95504d0d24e4c",
+    "notes": "Thử cập nhật bắt buộc"
+  },
+  "minAppVersion": 202
 }
