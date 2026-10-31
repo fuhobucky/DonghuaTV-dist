@@ -1,0 +1,87 @@
+{
+  "version": 3,
+  "tlds": [
+    ".la",
+    ".pro",
+    ".tv",
+    ".to",
+    ".top",
+    ".me",
+    ".vip",
+    ".cc",
+    ".net",
+    ".com",
+    ".org"
+  ],
+  "sniffer": {
+    "blockHosts": [
+      "googletagmanager.com",
+      "google-analytics.com",
+      "doubleclick.net",
+      "googlesyndication.com",
+      "facebook.net",
+      "histats.com",
+      "imasdk.googleapis.com",
+      "excavatenearbywand.com"
+    ]
+  },
+  "sources": {
+    "hhpanda": {
+      "baseName": "hhpanda",
+      "domains": [
+        "hhpanda.st"
+      ],
+      "signature": {
+        "selector": "meta[property=og:site_name]",
+        "attr": "content",
+        "contains": "HHPANDA - "
+      }
+    },
+    "hhkungfu": {
+      "baseName": "hhkungfu",
+      "domains": [
+        "hhkungfu.ee"
+      ],
+      "signature": {
+        "selector": "meta[property=og:site_name]",
+        "attr": "content",
+        "contains": "HHKUNGFU - "
+      }
+    },
+    "hoathinh3d": {
+      "baseName": "hoathinh3d",
+      "domains": [
+        "hoathinh3d.day"
+      ],
+      "redirectors": [
+        "hoathinh3d.co"
+      ],
+      "signature": {
+        "selector": "meta[property=og:site_name]",
+        "attr": "content",
+        "contains": "HH3D"
+      }
+    },
+    "animevietsub": {
+      "baseName": "animevietsub",
+      "domains": [
+        "animevietsub.news",
+        "animevietsub.sale"
+      ],
+      "redirectors": [
+        "animevietsub.moe"
+      ],
+      "signature": {
+        "selector": "title",
+        "contains": "Anime Vietsub Online"
+      }
+    }
+  },
+  "latestApp": {
+    "versionCode": 200,
+    "versionName": "0.2.0",
+    "url": "https://github.com/fuhobucky/DonghuaTV-dist/releases/download/v0.2.0/DonghuaTV-0.2.0.apk",
+    "sha256": "48cd3944c1c2a266de8b87d29093a4cc1b9700ec4e0b9d0fa8c3ce38da3b1810",
+    "notes": "Bản đầu tiên ký bằng key phát hành"
+  }
+}
