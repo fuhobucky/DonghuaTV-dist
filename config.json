@@ -1,5 +1,5 @@
 {
-  "version": 6,
+  "version": 7,
   "tlds": [
     ".la",
     ".pro",
@@ -51,6 +51,7 @@
     "hoathinh3d": {
       "baseName": "hoathinh3d",
       "domains": [
+        "hoathinh3d.pw",
         "hoathinh3d.day"
       ],
       "redirectors": [
@@ -65,6 +66,7 @@
     "animevietsub": {
       "baseName": "animevietsub",
       "domains": [
+        "animevietsub.best",
         "animevietsub.news",
         "animevietsub.sale"
       ],
