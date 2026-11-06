@@ -1,5 +1,5 @@
 {
-  "version": 8,
+  "version": 9,
   "tlds": [
     ".la",
     ".pro",
@@ -76,6 +76,20 @@
       "signature": {
         "selector": "title",
         "contains": "Anime Vietsub Online"
+      }
+    },
+    "hhtq": {
+      "baseName": "hhtq",
+      "domains": [
+        "hhtq.sh"
+      ],
+      "redirectors": [
+        "hhtq.ee"
+      ],
+      "signature": {
+        "selector": "meta[property=og:site_name]",
+        "attr": "content",
+        "contains": "Hoạt Hình 4K Trung Quốc"
       }
     }
   },
