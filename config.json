@@ -1,5 +1,5 @@
 {
-  "version": 11,
+  "version": 12,
   "tlds": [
     ".la",
     ".pro",
@@ -94,11 +94,11 @@
     }
   },
   "latestApp": {
-    "versionCode": 401,
-    "versionName": "0.4.1",
-    "url": "https://github.com/fuhobucky/DonghuaTV-dist/releases/download/v0.4.1/DonghuaTV-0.4.1.apk",
-    "sha256": "3549307a8c5237424cf770911ca97261f22f75d283e04a3d5b3a825ab3d78432",
-    "notes": "Nothing"
+    "versionCode": 402,
+    "versionName": "0.4.2",
+    "url": "https://github.com/fuhobucky/DonghuaTV-dist/releases/download/v0.4.2/DonghuaTV-0.4.2.apk",
+    "sha256": "504b3dbb258f2361fbbd5eab3249460a4a9761323f705d0b961deba20345ec93",
+    "notes": "Sửa khựng hình ở HHPanda, HHKungfu, HoatHinh3D, HHTQ: player giữ sẵn 30 giây phim thay vì 1 giây."
   },
   "minAppVersion": 202
 }
