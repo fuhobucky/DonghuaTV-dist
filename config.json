@@ -1,5 +1,5 @@
 {
-  "version": 13,
+  "version": 14,
   "tlds": [
     ".la",
     ".pro",
@@ -22,7 +22,8 @@
       "facebook.net",
       "histats.com",
       "imasdk.googleapis.com",
-      "excavatenearbywand.com"
+      "excavatenearbywand.com",
+      "astronautlividlyreformer.com"
     ]
   },
   "sources": {
@@ -48,19 +49,18 @@
         "contains": "HHKUNGFU - "
       }
     },
-    "hoathinh3d": {
-      "baseName": "hoathinh3d",
+    "yanhh3d": {
+      "baseName": "yanhh3d",
       "domains": [
-        "hoathinh3d.pw",
-        "hoathinh3d.day"
+        "yanhh3d.baby"
       ],
       "redirectors": [
-        "hoathinh3d.co"
+        "bit.ly/yanhh3d"
       ],
       "signature": {
         "selector": "meta[property=og:site_name]",
         "attr": "content",
-        "contains": "HH3D"
+        "contains": "YanHH3D | "
       }
     },
     "animevietsub": {
@@ -91,6 +91,22 @@
         "selector": "meta[property=og:site_name]",
         "attr": "content",
         "contains": "Hoạt Hình 4K Trung Quốc"
+      }
+    },
+    "hoathinh3d": {
+      "baseName": "hoathinh3d",
+      "enabled": false,
+      "domains": [
+        "hoathinh3d.pw",
+        "hoathinh3d.day"
+      ],
+      "redirectors": [
+        "hoathinh3d.co"
+      ],
+      "signature": {
+        "selector": "meta[property=og:site_name]",
+        "attr": "content",
+        "contains": "HH3D"
       }
     }
   },
